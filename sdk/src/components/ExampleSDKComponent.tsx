@@ -5,7 +5,7 @@ const ExampleSDKComponent = () => {
     console.log("useEffect called");
   }, []);
 
-  return <div className="w-full us-bg-indigo-400">hello world</div>;
+  return <div>hello world</div>;
 };
 
 export default ExampleSDKComponent;
