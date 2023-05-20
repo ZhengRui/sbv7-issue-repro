@@ -54,8 +54,6 @@
     "@types/react": "^18.0.26",
     "babel-jest": "^27.4.5",
     "babel-loader": "^8.2.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "jest": "^27.4.5",
     "rollup": "^3.9.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
@@ -67,7 +65,5 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "dependencies": {
   }
 }
