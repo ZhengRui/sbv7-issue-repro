@@ -32,10 +32,12 @@ TypeError: Cannot read properties of null (reading 'useEffect')
     at recoverFromConcurrentError (http://localhost:6006/vendors-node_modules_pnpm_storybook_addon-essentials_7_0_12_react-dom_18_2_0_react_18_2_0_nod-70b296.iframe.bundle.js:50713:20)
 ```
 
-#### To fix (latest)
+#### To fix (commit c3b7457)
 
 ```bash
 cd sdk
 pnpm remove react react-dom
 pnpm link ../storybook/node_modules/react
 ```
+
+*Note: the fix brings the question when developing the lib, how you know which app's react it should link to. This link hack seems only relate to storybook v7, for other apps that uses the lib e.g. nextapp, it doesn't matter whether/where to link react in the lib.*
