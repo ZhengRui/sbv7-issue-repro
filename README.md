@@ -41,3 +41,9 @@ pnpm link ../storybook/node_modules/react
 ```
 
 *Note: the fix brings the question when developing the lib, how you know which app's react it should link to. This link hack seems only relate to storybook v7, for other apps that uses the lib e.g. nextapp, it doesn't matter whether/where to link react in the lib.*
+
+
+#### Surrender
+Give up the idea of separating lib and storybook as two separate projects to simulate how lib is imported and used in dependee projects, it simply brings too much hassles from storybook v7.
+
+Just make them a combo single project, so you don't have to deal with all the two version issues reported by sb.
